@@ -22,7 +22,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin: auto;
-  color: #2c3e50;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
