@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import { component } from 'vue/types/umd'
-import Home from '../views/Home.vue'
+import Home from '../components/Home.vue'
 import Clue from '../components/Clue.vue'
 
 Vue.use(VueRouter)
