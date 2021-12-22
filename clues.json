@@ -1,0 +1,23 @@
+[
+    {
+        "phase": "A",
+        "clues": [
+            "Under the tree.",
+            "Somewhere else."
+        ]
+    },
+    {
+        "phase": "B",
+        "clues": [
+            "Salt and Pepper.",
+            "Two cats"
+        ]
+    },
+    {
+        "phase": "C",
+        "clues": [
+            "Santa Jar.",
+            "Paper Towels"
+        ]
+    }
+]
