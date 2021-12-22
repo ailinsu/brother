@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view/>
+    <transition name="fade" mode="out-in">
+      <router-view/>
+    </transition>
     <!-- <Clue/> -->
   </div>
 </template>
@@ -30,7 +32,14 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100%;;
+  width: 100%;
+  transition-duration: 0.4s;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: all 1s ease;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 
 html,body {

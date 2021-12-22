@@ -26,13 +26,15 @@
       <span class="festive_21">p</span>
       <span class="festive_22">p</span>
     </div>
-    <button class="next">
+    <button class="next" @click="$router.push('/test')">
       Begin
     </button>
   </div>
 </template>
 
 <script>
+
+
 export default {
   name: 'HelloWorld',
 }
