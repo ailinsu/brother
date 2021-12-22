@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../components/Home.vue';
+import Noodle from '../components/Noodle.vue';
 import Clue from '../components/Clue.vue';
 
 import clues from '../../clues.json';
@@ -24,7 +25,13 @@ routes.push({
   path: '/',
   name: 'Home',
   component: Home,
-});
+},
+{
+  path: '/noodle',
+  name: 'Noodle',
+  component: Noodle,
+}
+);
 
 const router = new VueRouter({
   mode: 'history',
