@@ -1,10 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import { component } from 'vue/types/umd'
-// import Home from '../components/Home.vue'
-import Clue from '../components/Clue.vue';
-import Home from '../components/Home.vue';
-import clues from '../../clues.json';
+import Home from '../components/Home.vue'
+import Clue from '../components/Clue.vue'
 
 Vue.use(VueRouter)
 
@@ -18,9 +16,9 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'Home',
-    component: Home,
+    component: Home
   },
   {
     path: '/test',
@@ -31,8 +29,6 @@ const routes = [
     }
   }
 ]
-
-console.log(clues);
 
 const router = new VueRouter({
   mode: 'history',
