@@ -4,9 +4,21 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <!-- <router-view/> -->
+    <Clue/>
   </div>
 </template>
+
+<script>
+import Clue from './components/Clue.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Clue
+  }
+}
+</script>
 
 <style>
 #app {
@@ -14,6 +26,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  margin: auto;
   color: #2c3e50;
 }
 
