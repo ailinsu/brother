@@ -1,9 +1,9 @@
 <template>
   <div class="clue">
-    <div class="text">Under the Christmas Tree.{{text}}</div>
+    <div class="text">{{text}}</div>
     <div class="wrapper">
-      <div class="phase">A{{phase}}</div>
-      <div class="number">32{{number}}</div>
+      <div class="phase">{{phase}}</div>
+      <div class="number">{{number}}</div>
     </div>
   </div>
 </template>
@@ -28,7 +28,6 @@ export default {
   border-bottom: 5px solid black;
   width: 300px;
   height: 150px;
-  /* filter: drop-shadow(0 0 10px rgb(150, 150, 150)); */
 }
 .text {
   margin: 20px;

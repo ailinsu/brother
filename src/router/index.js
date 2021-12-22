@@ -1,38 +1,34 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-// import { component } from 'vue/types/umd'
-import Home from '../components/Home.vue'
-import Clue from '../components/Clue.vue'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Home from '../components/Home.vue';
+import Clue from '../components/Clue.vue';
+
+import clues from '../../clues.json';
 
 Vue.use(VueRouter)
 
-// const Clue = {
-//   template: '<Clue/>'
-// }
-
-// const Test = {
-//   template: '<div>fdsa</div>'
-// }
-
-const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/test',
-    name: 'Test',
+const routes = clues.map((clue) => {
+  return {
+    path: `/${clue.key}`,
+    name: `${clue.phase}${clue.number}`,
     component: Clue,
     props: {
-      text: "fdsa"
-    }
+      phase: clue.phase,
+      number: clue.number,
+      text: clue.text,
+    },
   }
-]
+});
+
+routes.push({
+  path: '/',
+  name: 'Home',
+  component: Home,
+});
 
 const router = new VueRouter({
   mode: 'history',
-  routes
+  routes,
 })
 
-export default router
+export default router;
