@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <!-- <router-view/> -->
-    <Clue/>
+    <router-view/>
+    <!-- <Clue/> -->
   </div>
 </template>
 
 <script>
-import Clue from './components/Clue.vue'
+// import Clue from './components/Clue.vue'
 
 export default {
   name: 'App',
   components: {
-    Clue
+    // Clue
   }
 }
 </script>

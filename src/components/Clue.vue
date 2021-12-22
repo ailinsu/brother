@@ -32,6 +32,7 @@ export default {
 }
 .text {
   margin: 20px;
+  margin-right: 0;
   width: 300px;
   text-align: left;
 }
