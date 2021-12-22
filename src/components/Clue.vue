@@ -45,7 +45,6 @@ export default {
 }
 .phase {
   color: white;
-  
   display: flex;
   justify-content: center;
   align-items: center;

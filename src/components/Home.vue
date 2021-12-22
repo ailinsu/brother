@@ -108,14 +108,14 @@ export default {
   border: 2px solid;
   background-color: white;
   align-self: flex-end;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 .next:hover {
-  border: 2px solid;
-  color: white;
-  background-color: rgb(112, 112, 112);
+  border: 2px solid black;
+  background-color: rgb(202, 202, 202);
 }
 .next:active {
+  color: white;
   background-color: black;
 }
 
