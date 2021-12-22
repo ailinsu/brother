@@ -3,18 +3,13 @@
     <transition name="fade" mode="out-in">
       <router-view/>
     </transition>
-    <!-- <Clue/> -->
   </div>
 </template>
 
 <script>
-// import Clue from './components/Clue.vue'
 
 export default {
   name: 'App',
-  components: {
-    // Clue
-  }
 }
 </script>
 
