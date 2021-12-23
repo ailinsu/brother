@@ -87,7 +87,6 @@ export default {
 }
 .title {
   margin: 20px;
-  margin-bottom: 0;
   font-weight: 900;
   text-align: left;
 }
