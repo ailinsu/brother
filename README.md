@@ -33,22 +33,22 @@ Paper clues, starting with the festive noodle. Noodle end will contain first clu
 
 |Number|Clue|Position|
 |------|----|--------|
-|1|You'll need to heat this up, don't burn me though.|Brother's butter garlic candle|
+|1|I've already been gifted to you, don't burn me too much though.|Brother's butter garlic candle|
 |2|More butter???|Inside the soft butter|
 |3|The most basic of seasonings|Salt and Pepper|
-|4||Two cats|
+|4|Twin cats similar to last|Two cats|
 |5||Santa jar|
 |6|Dry things with me|Paper towels|
 |7||Instant coffee|
 |8|I almost got stabbed!|Knife block|
 |9|It's pretty warm in here|Oven drawer|
-|10|I'm watching you|Cat with eyes|
+|10|Fat cat sat on me.|Cat with eyes|
 |11|New Jersey|New Jersey Dovan wood sign|
 |12||Fire extinguisher|
 |13||Awesome beer sign|
 |14|I'm protected from the heat|Oven mitts|
 |15||Seasoning jar|
-|16||Small tree|
+|16|Charlie Brown Tree|downstairs plastic tree|
 |17||Barbie dress|
 |18||Christmas plants|
 |19|You can look outside, or into yourself...|Behind kitchen mirror|
@@ -63,26 +63,26 @@ NFC Tag starts webapp.
 
 |Number|Clue|Position|
 |------|----|--------|
-|1||Towels|
+|1|Which Towel?|Towels|
 |2||Ginger bread house|
-|3||New ebby blanket|
+|3|Ebby might be sitting on me|New ebby blanket|
 |4||Twin towers|
-|5||Christmas deer|
-|6||Slide projector|
-|7||Candle with lid|
-|8||Strange plants|
-|9||Ornament|
+|5|An animal who took Ebby's spot.|Christmas deer|
+|6|I'm not a photo slide.|Slide projector|
+|7|Candle with Lid.|Candle with lid (foyer)|
+|8|I never really noticed how strange these fake plants were.|Strange plants|
+|9|A fake ornament? How original...|Ornament|
 |10||Corner church|
-|11||Under Mantle|
+|11|Santa might have shaken me loose.|Under Mantle|
 |12||Old stereo|
 |13||Metal tree|
-|14||Tall Santa|
-|15||Casa|
-|16||Dining room window|
-|17||Dining room Chandelier|
-|18||Battery drawer|
-|19||Laundry room lamp|
-|20||The dovans|
+|14|Santa definitely doesn't have this physique.|Tall Santa|
+|15|R.I.P This delicious cheese|Casa|
+|16|I protect you from the sun (somewhat)|Dining room window|
+|17|I'm, gonna swing, from the...|Dining room Chandelier|
+|18|I hold power and am falling apart.|Battery drawer|
+|19|I light up your work.|Laundry room lamp|
+|20|The Dovans|The Dovans sign laundry room|
 
 <br/>
 
@@ -92,23 +92,23 @@ Continuation of webapp.
 
 |Number|Clue|Position|
 |------|----|--------|
-|1||Lint|
-|2||Humidity|
-|3||Pool noodle|
-|4||Shoe horn|
-|5||Coin jar cap|
-|6||Vacuum|
-|7||Green table|
-|8||brother|
-|9||Front door window|
-|10||Upstairs bowl|
-|11||Listerine|
-|12||Cup dispenser|
-|13||Scale|
+|1|I hope you remove this when doing laundry.|Lint|
+|2|I never knew we had a humidity meter!|Humidity|
+|3|Some sort of noodle|Pool noodle|
+|4|Shoe assistance.|Shoe horn|
+|5|Public family money.|Coin jar cap|
+|6|I suck.|Vacuum|
+|7|Sometimes we need extra table space.|Green table|
+|8|brother.|brother printer|
+|9|Any more packages coming? you might see me.|Front door window|
+|10|Decorative bowl|Upstairs bowl|
+|11|You might find me while brushing your teeth|Listerine|
+|12|Water recepticle dispenser|Cup dispenser in bathroom|
+|13|Am I heavy?|Scale|
 |14||Poopourri|
 |15||Ceiling fan|
 |16||Merry Christmas sign|
-|17||Under echo|
+|17|There's an echo here.|Under echo|
 |18||Chromecast|
 |19||GameCube|
 |20||TV Remote|
