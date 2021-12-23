@@ -22,12 +22,12 @@ const routes = clues.map((clue) => {
 });
 
 routes.push({
-  path: '/',
+  path: '/start',
   name: 'Home',
   component: Home,
 },
 {
-  path: '/noodle',
+  path: '/',
   name: 'Noodle',
   component: Noodle,
 }

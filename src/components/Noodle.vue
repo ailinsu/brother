@@ -5,8 +5,11 @@
         The festive noodle attached to the festive goose contains a festive <span class="string">std::string</span> of festive alphanumeric characters.
         Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.
     </div>
-    
-    <input type="text" id="password" name="name" size="10">
+    <div class="input-wrapper">
+      <div class="error" :class="showError ? 'error--show' : ''">{{errorMessage}}</div>
+      <textarea class="input" type="text" name="name" size="10" v-model="input" @input="showError = false"/>
+      <button class="button" @click="verify">Enter</button>
+    </div>
   </div>
 </template>
 
@@ -15,6 +18,23 @@
 
 export default {
   name: 'HelloWorld',
+  data() {
+    return {
+      input: '',
+      password: '2IMuSzIDYRvoSncq2QfPli95XPyXnQo8rcOej1ZAKL6zalway3OwLkOUwoZ2HJyD',
+      showError: false,
+      errorMessage: "WRONG!!!",
+    }
+  },
+  methods: {
+    verify() {
+      if (this.input.trim() === this.password) {
+        this.$router.push('/start');
+      } else {
+        this.showError = true;
+      }
+    }
+  }
 }
 </script>
 
@@ -22,17 +42,17 @@ export default {
 .home {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   background-color: white;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
   width: 300px;
   height: 400px;
   font-size: 14px;
-  /* filter: drop-shadow(0 0 10px rgb(150, 150, 150)); */
+  justify-content: space-between;
 }
 .text {
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: left;
 }
 .title {
@@ -44,33 +64,37 @@ export default {
   color: rgb(0, 156, 196);
   font-weight: 900;
 }
-#password {
-  margin: 20px;
-  margin-top: 70px;
-  border: 2px solid black;
-  width: 200px;
+
+.input-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.input {
   height: 50px;
-  align-self: flex-end;
+  width: 200px;
+  resize: none;
 }
-.next {
-  margin: 20px;
-  margin-top: 70px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 900;
-  font-size: 20px;
+
+.button {
+  margin-top: 5px;
   width: 100px;
-  border: 2px solid;
-  background-color: white;
-  align-self: flex-end;
-  transition-duration: 0.3s;
 }
-.next:hover {
-  border: 2px solid black;
-  background-color: rgb(202, 202, 202);
+
+.error {
+  height: 20px;
+  color: red;
+  opacity: 0;
 }
-.next:active {
-  color: white;
-  background-color: black;
+
+.error--show {
+  opacity: 100%;
 }
 
 </style>
