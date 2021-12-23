@@ -5,5 +5,7 @@ on:
 
 jobs:
   deploy:
+    name: Deploy latest
+    runs-on: ubuntu-latest
     steps:
       - run: ./deploy.sh
