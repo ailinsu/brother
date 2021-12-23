@@ -2,20 +2,23 @@
   <div class="home">
     <div class="title">Brother's Festive Algorithm</div>
     <div class="text">
-      Given an array nums of <span class="code">n</span> integers where
+      Given a festive array <span class="code">nums</span> of <span class="code">n</span> festive integers where
       <span class="code">nums[i]</span> is in the range <span class="code">[1, n]</span>,
-      return an array of all the integers in the range <span class="code">[1, n]</span>
-      that do not appear in <span class="code">nums</span>.
+      return a festive array of all the festive integers in the range <span class="code">[1, n]</span>
+      that do not appear in the festive array <span class="code">nums</span>. Remove the brackets and commas,
+      and paste in the list as a concatenated festive number.
     </div>
     <div class="title">Example 1:</div>
     <div class="code-block">
-      Input: nums = [4,3,2,7,8,2,3,1]<br/>
-      Output: [5,6]
+      Input: nums = [4,3,2,7,8,2,3,1,2,1]<br/>
+      Missing: [5,6,9,10]<br/>
+      Output: 56910
     </div>
     <div class="title">Example 2:</div>
     <div class="code-block">
-      Input: nums = [1,1]<br/>
-      Output: [2]
+      Input: nums = [1,1,1]<br/>
+      Missing: [2,3]<br/>
+      Output: 23
     </div>
     <button class="button add-margin" @click="copy">Copy Test Case</button>
     <div class="input-wrapper">
