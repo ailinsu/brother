@@ -1,11 +1,21 @@
 <template>
   <div class="home">
-    <div class="title">Brother's Festive Noodle</div>
+    <div class="title">Brother's Festive Algorithm</div>
     <div class="text">
       Given an array nums of <span class="code">n</span> integers where
       <span class="code">nums[i]</span> is in the range <span class="code">[1, n]</span>,
       return an array of all the integers in the range <span class="code">[1, n]</span>
       that do not appear in <span class="code">nums</span>.
+    </div>
+    <div class="title">Example 1:</div>
+    <div class="code-block">
+      Input: nums = [4,3,2,7,8,2,3,1]<br/>
+      Output: [5,6]
+    </div>
+    <div class="title">Example 2:</div>
+    <div class="code-block">
+      Input: nums = [1,1]<br/>
+      Output: [2]
     </div>
     <button class="button add-margin" @click="copy">Copy Test Case</button>
     <div class="input-wrapper">
@@ -63,7 +73,7 @@ export default {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
   width: 300px;
-  height: 400px;
+  height: 600px;
   font-size: 14px;
   justify-content: space-between;
 }
@@ -74,6 +84,7 @@ export default {
 }
 .title {
   margin: 20px;
+  margin-bottom: 0;
   font-weight: 900;
   text-align: left;
 }
@@ -87,6 +98,17 @@ export default {
   font-weight: 900;
   color: rgb(27, 27, 27);
   padding: 3px;
+  border-radius: 5px;
+}
+.code-block {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  background-color: rgb(228, 228, 228);
+  font-size: 10px;
+  font-weight: 900;
+  color: rgb(27, 27, 27);
+  padding: 10px;
   border-radius: 5px;
 }
 .bcontrol {
