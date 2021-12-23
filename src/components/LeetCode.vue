@@ -2,16 +2,20 @@
   <div class="home">
     <div class="title">Brother's Festive Noodle</div>
     <div class="text">
-			<!-- TODO: Update text here -->
-			The festive noodle attached to the festive goose contains a festive <span class="string">std::string</span> of festive alphanumeric characters.
-			Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.
+      Given an array nums of <span class="code">n</span> integers where
+      <span class="code">nums[i]</span> is in the range <span class="code">[1, n]</span>,
+      return an array of all the integers in the range <span class="code">[1, n]</span>
+      that do not appear in <span class="code">nums</span>.
     </div>
     <button class="button add-margin" @click="copy">Copy Test Case</button>
     <div class="input-wrapper">
       <textarea class="input" type="text" name="name" size="10" v-model="input" @input="showError = false"/>
       <div class="berror">
         <div class="error" :class="showError ? 'error--show' : ''">{{errorMessage}}</div>
-        <button class="button" @click="verify">Enter</button>
+        <div class="bcontrol">
+          <button class="button" @click="clear">Clear</button>
+          <button class="button" @click="verify">Enter</button>
+        </div>
       </div>
     </div>
   </div>
@@ -25,11 +29,10 @@ export default {
   data() {
     return {
       input: '',
-			// TODO: change answer here
-      answer: '2IMuSzIDYRvoSncq2QfPli95XPyXnQo8rcOej1ZAKL6zalway3OwLkOUwoZ2HJyD',
+      answer: '234131516172025282930414246485456585962656668757781838489959697102103105108109111112115118119120123124127129135137138139140145147148152153155158160161163168171176180181182183184186187189190192200',
       showError: false,
       errorMessage: "Incorrect",
-      testCase: "I like to poo"
+      testCase: "[78,151,19,21,12,157,88,151,136,199,177,70,18,157,74,165,79,14,162,35,36,170,6,199,6,24,11,1,55,7,157,49,194,70,60,51,9,151,169,165,18,133,22,175,132,130,51,150,45,113,172,178,8,93,60,93,27,165,92,12,144,165,47,32,91,64,57,174,38,51,43,92,21,175,21,100,71,156,9,125,60,166,63,154,10,198,93,53,86,85,141,114,33,178,50,99,73,136,73,169,76,116,34,82,40,110,70,5,131,50,73,104,35,141,151,185,149,126,1,170,11,107,11,71,159,167,7,47,166,131,106,167,94,128,67,173,146,85,116,44,122,165,179,170,74,101,191,98,142,37,31,169,188,179,32,52,195,87,156,80,61,71,73,143,117,90,7,40,94,39,179,196,23,72,69,195,133,23,131,43,134,193,188,165,199,26,170,32,44,121,191,69,144,134,39,162,197,156,195,164]"
     }
   },
   methods: {
@@ -43,6 +46,10 @@ export default {
     },
     copy() {
         navigator.clipboard.writeText(this.testCase);
+    },
+    clear() {
+      this.input = '';
+      this.showError = false;
     }
   }
 }
@@ -73,6 +80,20 @@ export default {
 .string {
   color: rgb(0, 156, 196);
   font-weight: 900;
+}
+.code {
+  background-color: rgb(228, 228, 228);
+  font-size: 10px;
+  font-weight: 900;
+  color: rgb(27, 27, 27);
+  padding: 3px;
+  border-radius: 5px;
+}
+.bcontrol {
+  display: flex;
+}
+.button:first-child {
+  margin-right: 5px;
 }
 
 .input-wrapper {
@@ -136,6 +157,7 @@ export default {
 }
 
 .add-margin {
+    margin-top: 0;
     margin-right: 20px;
 }
 
