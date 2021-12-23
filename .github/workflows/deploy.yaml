@@ -12,5 +12,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm ci
       - run: npm run deploy
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
