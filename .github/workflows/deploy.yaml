@@ -10,3 +10,4 @@ jobs:
     steps:
       - working-directory: ./
       - run: ./deploy.sh
+      
