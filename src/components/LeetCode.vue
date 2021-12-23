@@ -185,7 +185,7 @@ export default {
 }
 
 .error--show {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .button-container {
