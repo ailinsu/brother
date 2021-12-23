@@ -9,8 +9,6 @@ cd dist
 echo 'ailinsu.com' > CNAME
 git init
 git add -A
-git config user.name ailinsu
-git config user.email ailinsu1994@gmail.com
 git commit -m 'deploy'
 git push -f git@github.com:ailinsu/brother.git master:gh-pages
 cd -
