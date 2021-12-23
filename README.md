@@ -37,19 +37,24 @@ Paper clues, starting with the festive noodle. Noodle end will contain first clu
 |2|Twin cats similar to last|Two cats|
 |3|Festive container|Santa jar|
 |4|Dry things with me|Paper towels|
-|5||Instant coffee|
+|5|Slightly faster coffee|Instant coffee|
 |6|I've already been gifted to you, don't burn me too much though.|Brother's butter garlic candle|
 |7|I almost got stabbed!|Knife block|
-|8|New Jersey|New Jersey Dovan wood sign|
-|9|I'm protected from the heat|Oven mitts|
-|10||Seasoning jar|
-|11|Charlie Brown Tree|downstairs plastic tree|
-|12|A pretty small dress|Barbie dress|
-|13||Christmas plants|
-|14|You can look outside, or into yourself...|Behind kitchen mirror|
-|15|Ice me|Ebby water|
-|16|More butter???|Inside the soft butter|
-|17|Brother's Festive Noodle|Noodle code|
+|8|Toilet Paper|Inside current toilet paper roll|
+|9|New Jersey|New Jersey Dovan wood sign|
+|10|I'm protected from the heat|Oven mitts|
+|11|Downstairs Bathroom|Downstairs Bathroom|
+|12|Charlie Brown Tree|downstairs plastic tree|
+|13|A pretty small dress|Barbie dress|
+|14|Fake festive plants|Christmas plants|
+|15|You can look outside, or into yourself...|Behind kitchen mirror|
+|16|Ice me|Ebby water|
+|17|More butter???|Inside the soft butter|
+|18|Brother's Festive Noodle|Noodle code|
+
+__Gift 1:__ Butter Candle and Pop-it
+
+__Location:__ Cabinet above fridge
 
 <br/>
 
@@ -60,23 +65,27 @@ QR Codes, start of webapp.
 |Number|Clue|Position|
 |------|----|--------|
 |1|You might need me if it gets too hot|Fire extinguisher|
-|2||Awesome beer sign|
+|2|Awesome beer sign|Awesome beer sign|
 |3|Which Towel?|Towels|
-|4||Ginger bread house|
+|4|I can control things|TV Remote|
 |5|Ebby might be sitting on me|New ebby blanket|
-|6||Twin towers|
+|6|Twin towers|Twin towers snow globe|
 |7|An animal who took Ebby's spot.|Christmas deer|
 |8|I'm not a photo slide.|Slide projector|
 |9|Candle with Lid.|Candle with lid (foyer)|
-|10|I never really noticed how strange these fake plants were.|Strange plants|
+|10|Family Photos.|Family Photos|
 |11|A fake ornament? How original...|Ornament|
-|12||Corner church|
+|12|A boat used to be here|Side of house where paddle boat was|
 |13|Santa might have shaken me loose.|Under Mantle|
 |14|I hold power and am falling apart.|Battery drawer|
 |15|I light up your work.|Laundry room lamp|
 |16|The Dovans|The Dovans sign laundry room|
 |17|Not the regular TV|Kitchen TV|
 |18|Did you know that your festive gas is NFC Enabled?|Gas NFC|
+
+__Gift 2:__ Communism
+
+__Location:__ Cabinet above fridge
 
 
 <br/>
@@ -95,17 +104,20 @@ Continuation of webapp.
 |6|Sometimes we need extra table space.|Green table|
 |7|Any more packages coming? you might see me.|Front door window|
 |8|Decorative bowl|Upstairs bowl|
-|9|You might find me while brushing your teeth|Listerine|
-|10|Am I heavy?|Scale|
-|11|Shame free poops|Poopourri|
-|12|I must say, I'm a huge fan.|Ceiling fan|
-|13|Merry Christmas|Merry Christmas sign|
-|14|There's an echo here.|Under echo|
-|15|As seen on TV!|Behind regular TV|
-|16|Old games, Old christmas gift.|GameCube|
-|17||TV Remote|
-|18|Brother's Festive Algorithm|Leetcode|
+|9|Nintendo switch|Lightswith|
+|10|You might find me while brushing your teeth|Listerine|
+|11|Am I heavy?|Scale|
+|12|Shame free poops|Poopourri|
+|13|I must say, I'm a huge fan.|Ceiling fan|
+|14|Merry Christmas|Merry Christmas sign|
+|15|There's an echo here.|Under echo|
+|16|As seen on TV!|Behind regular TV|
+|17|Old games, Old christmas gift.|GameCube|
+|18|Brother's Festive Algorithm|Leetcode disappearing numbers in array|
 
+__Gift 3:__ Coasters
+
+__Location:__ Cabinet above fridge
 
 <br/>
 
@@ -117,13 +129,23 @@ Continuation of webapp.
 |------|----|--------|
 |1|It's pretty warm in here|Oven drawer|
 |2|Fat cat sat on me.|Cat with eyes|
-|3||Old stereo|
-|4||Metal tree|
-|5|Santa definitely doesn't have this physique.|Tall Santa|
-|6|R.I.P This delicious cheese|Casa|
-|7|I protect you from the sun (somewhat)|Dining room window|
-|8|I'm, gonna swing, from the...|Dining room Chandelier|
-|9|brother.|brother printer|
-|10|Water recepticle dispenser|Cup dispenser in bathroom|
-|11|Some sort of noodle|Pool noodle|
-|12|Frozen II: The sequel to the previous freezing|Frozen clue in freezer|
+|3|Vintage Furniture|Old stereo|
+|4|A Christmas Tree made of a fancier material|Metal tree|
+|5|One of the Candles.|A random candle|
+|6|One of the Chairs.|A random chair|
+|7|One of the speakers.|A random speaker|
+|8|Is your A.C. Broken again?|Outdoor brother A.C. unit|
+|9|Big time.|Calendar|
+|10|Teas|Tea / Spoon hook things|
+|11|Santa definitely doesn't have this physique.|Tall Santa|
+|12|R.I.P This delicious cheese|Casa|
+|13|I protect you from the sun (somewhat)|Dining room window|
+|14|I'm, gonna swing, from the...|Dining room Chandelier|
+|15|brother.|brother printer|
+|16|Water recepticle dispenser|Cup dispenser in bathroom|
+|17|Some sort of noodle|Pool noodle|
+|18|Frozen II: The sequel to the previous freezing|Frozen clue in freezer|
+
+__Gift 4:__ Burrito Blanket and Stickers
+
+__Location:__ Cabinet above fridge
