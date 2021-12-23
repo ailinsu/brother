@@ -60,4 +60,13 @@ html,body {
   height: 100%;
   margin: 0;
 }
+
+textarea {
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
 </style>

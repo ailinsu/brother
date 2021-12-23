@@ -2,14 +2,17 @@
   <div class="home">
     <div class="title">Brother's Festive Noodle</div>
     <div class="text">
-        The festive noodle attached to the festive goose contains a festive <span class="string">std::string</span> of festive alphanumeric characters.
-        Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.
+        <span class="description">The festive noodle attached to the festive goose contains a festive </span><span class="string">std::string</span><span class="description"> of festive alphanumeric characters.
+        Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.</span>
     </div>
     <div class="input-wrapper">
       <textarea class="input" type="text" name="name" size="10" v-model="input" @input="showError = false"/>
       <div class="berror">
         <div class="error" :class="showError ? 'error--show' : ''">{{errorMessage}}</div>
-        <button class="button" @click="verify">Enter</button>
+        <div class="bcontrol">
+          <button class="button" @click="clear">Clear</button>
+          <button class="button" @click="verify">Enter</button>
+        </div>
       </div>
     </div>
   </div>
@@ -35,6 +38,10 @@ export default {
       } else {
         this.showError = true;
       }
+    },
+    clear() {
+      this.input = '';
+      this.showError = false;
     }
   }
 }
@@ -72,16 +79,11 @@ export default {
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-  /* margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  padding-bottom: 0px; */
   margin: 20px;
 }
 
 .input {
   font-family: 'Roboto Mono', monospace;
-  /* font-size: 10px; */
   border: 2px solid black;
   padding: 5px;
   height: 40px;
@@ -92,6 +94,13 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 214px;
+}
+.bcontrol {
+  display: flex;
+}
+
+.button:first-child {
+  margin-right: 5px;
 }
 
 .button {
@@ -127,6 +136,10 @@ export default {
 
 .error--show {
   opacity: 100%;
+}
+
+.description {
+  line-height: 20px;
 }
 
 </style>
