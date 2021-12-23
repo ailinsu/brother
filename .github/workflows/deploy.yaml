@@ -8,6 +8,5 @@ jobs:
     name: Deploy latest
     runs-on: ubuntu-latest
     steps:
-      - working-directory: ./
       - run: ./deploy.sh
-      
+      - working-directory: ./
