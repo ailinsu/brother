@@ -36,8 +36,7 @@ routes.push({
   path: '/code',
   name: 'LeetCode Time',
   component: LeetCode,
-}
-);
+});
 
 const router = new VueRouter({
   mode: 'history',
