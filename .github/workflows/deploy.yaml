@@ -8,4 +8,4 @@ jobs:
     name: Deploy latest
     runs-on: ubuntu-latest
     steps:
-      - run: ./deploy.sh
+      - run: ../../deploy.sh
