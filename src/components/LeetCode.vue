@@ -2,25 +2,31 @@
   <div class="home">
     <div class="title">Brother's Festive Algorithm</div>
     <div class="text">
-      Given a festive array <span class="code">nums</span> of <span class="code">n</span> festive integers where
-      <span class="code">nums[i]</span> is in the range <span class="code">[1, n]</span>,
-      return a festive array of all the festive integers in the range <span class="code">[1, n]</span>
-      that do not appear in the festive array <span class="code">nums</span>. Remove the brackets and commas,
-      and paste in the list as a concatenated festive number.
+      <span class="description">Given a festive array </span><span class="code">nums</span><span class="description"> of </span><span class="code">n</span><span class="description"> festive integers where </span>
+      <span class="code">nums[i]</span><span class="description"> is in the range </span><span class="code">[1, n]</span><span class="description">,
+      return a festive array of all the festive integers in the range </span><span class="code">[1, n]</span>
+      <span class="description"> that do not appear in the festive array </span><span class="code">nums</span><span class="description">. Remove the brackets and commas,
+      and paste in the list as a concatenated festive number.</span>
     </div>
-    <div class="title">Example 1:</div>
-    <div class="code-block">
-      Input: nums = [4,3,2,7,8,2,3,1,2,1]<br/>
-      Missing: [5,6,9,10]<br/>
-      Output: 56910
-    </div>
-    <div class="title">Example 2:</div>
-    <div class="code-block">
-      Input: nums = [1,1,1]<br/>
-      Missing: [2,3]<br/>
-      Output: 23
-    </div>
-    <button class="button add-margin" @click="copy">Copy Test Case</button>
+		<div class="example-group">
+			<div class="title">Example 1:</div>
+			<div class="code-block">
+				Input: nums = [4,3,2,7,8,2,3,1,2,1]<br/>
+				Missing: [5,6,9,10]<br/>
+				Output: 56910
+			</div>
+		</div>
+		<div class="example-group">
+			<div class="title">Example 2:</div>
+			<div class="code-block">
+				Input: nums = [1,1,1]<br/>
+				Missing: [2,3]<br/>
+				Output: 23
+			</div>
+		</div>
+		<div class="button-container">
+			<button class="button-test-case" @click="copy">Copy Test Case</button>
+		</div>
     <div class="input-wrapper">
       <textarea class="input" type="text" name="name" size="10" v-model="input" @input="showError = false"/>
       <div class="berror">
@@ -76,9 +82,10 @@ export default {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
   width: 300px;
-  height: 600px;
+  height: 750px;
   font-size: 14px;
   justify-content: space-between;
+	margin-top: 20px;
 }
 .text {
   margin-left: 20px;
@@ -101,6 +108,7 @@ export default {
   color: rgb(27, 27, 27);
   padding: 3px;
   border-radius: 5px;
+	vertical-align: middle;
 }
 .code-block {
   margin-left: 20px;
@@ -180,9 +188,42 @@ export default {
   opacity: 100%;
 }
 
-.add-margin {
-    margin-top: 0;
-    margin-right: 20px;
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+.button-test-case {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
+  font-size: 14px;
+  height: 40px;
+	width: 260px;
+  border: 2px solid #000;
+  background-color: #666;
+	color: #fff;
+  align-self: flex-end;
+  transition-duration: 0.3s;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-test-case:hover {
+	background-color: #eee;
+	color: #666;
+}
+
+.button-test-case:active {
+	background-color: #515151;
+	color: #fff;
+}
+
+.description {
+	vertical-align: middle;
+	line-height: 20px;
 }
 
 </style>
