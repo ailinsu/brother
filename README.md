@@ -50,11 +50,8 @@ Paper clues, starting with the festive noodle. Noodle end will contain first clu
 |15|You can look outside, or into yourself...|Behind kitchen mirror|
 |16|Ice me|Ebby water|
 |17|More butter???|Inside the soft butter|
-|18|Brother's Festive Noodle|Noodle code|
-
-__Gift 1:__ Butter Candle and Pop-it
-
-__Location:__ Cabinet above fridge
+|Test|Brother's Festive Noodle|Noodle code|
+|Gift|Cabinet above fridge|Butter Candle and Pop-it|
 
 <br/>
 
@@ -82,11 +79,8 @@ QR Codes, start of webapp.
 |16|The Dovans|The Dovans sign laundry room|
 |17|Not the regular TV|Kitchen TV|
 |18|Did you know that your festive gas is NFC Enabled?|Gas NFC|
-
-__Gift 2:__ Communism
-
-__Location:__ Cabinet above fridge
-
+|Test|Nintendo switch|Lightswith|
+|Gift|Cabinet above fridge|Communism|
 
 <br/>
 
@@ -104,7 +98,6 @@ Continuation of webapp.
 |6|Sometimes we need extra table space.|Green table|
 |7|Any more packages coming? you might see me.|Front door window|
 |8|Decorative bowl|Upstairs bowl|
-|9|Nintendo switch|Lightswith|
 |10|You might find me while brushing your teeth|Listerine|
 |11|Am I heavy?|Scale|
 |12|Shame free poops|Poopourri|
@@ -113,11 +106,8 @@ Continuation of webapp.
 |15|There's an echo here.|Under echo|
 |16|As seen on TV!|Behind regular TV|
 |17|Old games, Old christmas gift.|GameCube|
-|18|Brother's Festive Algorithm|Leetcode disappearing numbers in array|
-
-__Gift 3:__ Coasters
-
-__Location:__ Cabinet above fridge
+|Test|Brother's Festive Algorithm|Leetcode disappearing numbers in array|
+|Gift|Cabinet above fridge|Coasters|
 
 <br/>
 
@@ -144,8 +134,5 @@ Continuation of webapp.
 |15|brother.|brother printer|
 |16|Water recepticle dispenser|Cup dispenser in bathroom|
 |17|Some sort of noodle|Pool noodle|
-|18|Frozen II: The sequel to the previous freezing|Frozen clue in freezer|
-
-__Gift 4:__ Burrito Blanket and Stickers
-
-__Location:__ Cabinet above fridge
+|Test|Frozen II: The sequel to the previous freezing|Frozen clue in freezer|
+|Gift|Cabinet above fridge|Burrito Blanket and Stickers|
