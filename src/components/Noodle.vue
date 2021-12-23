@@ -6,9 +6,11 @@
         Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.
     </div>
     <div class="input-wrapper">
-      <div class="error" :class="showError ? 'error--show' : ''">{{errorMessage}}</div>
       <textarea class="input" type="text" name="name" size="10" v-model="input" @input="showError = false"/>
-      <button class="button" @click="verify">Enter</button>
+      <div class="berror">
+        <div class="error" :class="showError ? 'error--show' : ''">{{errorMessage}}</div>
+        <button class="button" @click="verify">Enter</button>
+      </div>
     </div>
   </div>
 </template>
@@ -23,13 +25,13 @@ export default {
       input: '',
       password: '2IMuSzIDYRvoSncq2QfPli95XPyXnQo8rcOej1ZAKL6zalway3OwLkOUwoZ2HJyD',
       showError: false,
-      errorMessage: "WRONG!!!",
+      errorMessage: "Incorrect",
     }
   },
   methods: {
     verify() {
       if (this.input.trim() === this.password) {
-        this.$router.push('/start');
+        this.$router.push('/Qf0mBv8ISz');
       } else {
         this.showError = true;
       }
@@ -70,25 +72,55 @@ export default {
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-  margin-top: 20px;
+  /* margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 0px; */
+  margin: 20px;
 }
 
 .input {
-  height: 50px;
+  font-family: 'Roboto Mono', monospace;
+  /* font-size: 10px; */
+  border: 2px solid black;
+  padding: 5px;
+  height: 40px;
   width: 200px;
   resize: none;
+}
+.berror {
+  display: flex;
+  justify-content: space-between;
+  width: 214px;
 }
 
 .button {
   margin-top: 5px;
-  width: 100px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
+  font-size: 10px;
+  width: 50px;
+  height: 25px;
+  border: 2px solid;
+  background-color: white;
+  align-self: flex-end;
+  transition-duration: 0.3s;
+}
+.button:hover {
+  border: 2px solid black;
+  background-color: rgb(202, 202, 202);
+}
+.button:active {
+  color: white;
+  background-color: black;
 }
 
 .error {
+  margin: 2px;
+  margin-top: 7px;
+  margin-left: 5px;
   height: 20px;
+  font-weight: 900;
   color: red;
   opacity: 0;
 }
