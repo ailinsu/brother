@@ -4,6 +4,7 @@ import Home from '../components/Home.vue';
 import Noodle from '../components/Noodle.vue';
 import Clue from '../components/Clue.vue';
 import LeetCode from '../components/LeetCode.vue';
+import Integral from '../components/Integral.vue';
 
 import clues from '../../clues.json';
 
@@ -34,12 +35,18 @@ routes.push({
 },
 {
   path: '/code',
-  name: 'LeetCode Time',
+  name: 'LeetCode',
   component: LeetCode,
-});
+},
+{
+  path: '/integral',
+  name: 'Integral',
+  component: Integral,
+}
+);
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   routes,
 })
 

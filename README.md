@@ -63,14 +63,14 @@ QR Codes, start of webapp.
 |Number|Clue|Position|
 |------|----|--------|
 |1|You might need me if it gets too hot.|Fire extinguisher|
-|2|Awesome beer sign.|Awesome beer sign|
 |3|Which Towel?|Towels|
 |4|I can control things.|TV Remote|
 |5|Ebby might be sitting on me.|New ebby blanket|
-|6|An animal who took Ebby's spot.|Christmas deer|
+|2|Awesome beer sign.|Awesome beer sign|
 |7|I'm not a photo slide.|Slide projector|
 |8|Downstairs Bathroom.|Downstairs Bathroom|
 |9|Candle with Lid.|Candle with lid (foyer)|
+|6|An animal who took Ebby's spot.|Christmas deer|
 |10|Family Photos.|Family Photos|
 |11|You just found me already, don't burn me too much though.|Brother's butter garlic candle|
 |12|A boat used to be here.|Side of house where paddle boat was|
