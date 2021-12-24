@@ -79,7 +79,7 @@ QR Codes, start of webapp.
 |15|Cafe le Dovan.|The Dovan sign kitchen|
 |16|Not the regular TV.|Kitchen TV|
 |17|More butter???|Inside the soft butter|
-|18|Did you know that your festive gas is NFC Enabled?|Gas NFC|
+|18|Tap the top of your phone to where it says "1 GAL/3.8L"|Gas NFC|
 |Test|Nintendo switch|Lightswith|
 |Gift|Upstairs bathroom towel closet.|Communism, Pop-it|
 
