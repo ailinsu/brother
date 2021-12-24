@@ -36,7 +36,7 @@ export default {
   methods: {
     verify() {
       if (this.input.trim() === this.password) {
-        this.$router.push('/Qf0mBv8ISz');
+        this.$router.push('/RJn5MitJbp');
       } else {
         this.showError = true;
       }

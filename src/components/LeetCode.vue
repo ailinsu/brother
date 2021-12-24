@@ -60,7 +60,7 @@ export default {
     verify() {
       if (this.input.trim() === this.answer) {
         // TODO: Update page routing to
-        this.$router.push('/Qf0mBv8ISz');
+        this.$router.push('/MzKzmebCQG');
       } else {
         this.showError = true;
       }
