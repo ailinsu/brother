@@ -87,7 +87,7 @@ export default {
   height: 750px;
   font-size: 14px;
   justify-content: space-between;
-	margin-top: 20px;
+	margin-top: 100px;
 }
 .text {
   margin-left: 20px;

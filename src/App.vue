@@ -63,6 +63,10 @@ html,body {
   margin: 0;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 textarea {
   overflow: auto;
   outline: none;
