@@ -35,13 +35,15 @@ export default {
   height: 100%;
   width: 100%;
   transition-duration: 0.4s;
+  overflow: auto;
 }
 .ticket {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  margin: auto;
 }
 .fade-enter-active, .fade-leave-active {
   transition: all 1s ease;
