@@ -4,7 +4,7 @@
       <div class="title">Brother's Festive Noodle</div>
       <div class="text">
           <span class="description">The festive noodle attached to the festive goose contains a festive </span><span class="string">std::string</span><span class="description"> of festive alphanumeric characters.
-          Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.</span>
+          You have recorded the characters along the festive noodle during the first part of this festive event. Enter the festive characters into the festive html form below.</span>
       </div>
     </div>
     <div class="input-wrapper">
