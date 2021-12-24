@@ -35,14 +35,14 @@
 </template>
 
 <script>
-
-
 export default {
   name: 'HelloWorld',
 }
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 .home {
   display: flex;
   flex-direction: column;
@@ -67,9 +67,9 @@ export default {
   text-align: left;
 }
 .festive {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Courgette', cursive;
   font-style: italic;
-  font-size: 35px;
+  font-size: 38px;
   color: brown;
   margin: 20px;
   margin-top: 30px;
@@ -81,13 +81,13 @@ export default {
 .festive_3  { color: rgb(233, 51, 51); }
 .festive_4  { color: rgb(61, 171, 223); }
 .festive_5  { color: rgb(226, 55, 218); }
-.festive_6  { color: rgb(214, 199, 64); }
+.festive_6  { color: rgb(248, 166, 44); }
 .festive_7  { color: rgb(218, 55, 55); }
 .festive_8  { color: rgb(23, 50, 204); }
 .festive_9  { color: rgb(202, 71, 71); }
 .festive_10 { color: rgb(66, 241, 95); }
 .festive_11 { color: rgb(223, 51, 208); }
-.festive_12 { color: rgb(248, 228, 48); }
+.festive_12 { color: rgb(247, 44, 29); }
 .festive_13 { color: rgb(36, 209, 195); }
 .festive_14 { color: rgb(46, 238, 56); }
 .festive_15 { color: rgb(216, 36, 81); }
@@ -100,7 +100,6 @@ export default {
 .festive_22 { color: rgb(224, 99, 26); }
 .next {
   margin: 20px;
-  margin-top: 70px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 900;
   font-size: 20px;
