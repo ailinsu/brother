@@ -1,30 +1,32 @@
 <template>
   <div class="home">
-    <div class="text">Welcome, to</div>
-    <div class="title">Brother's Festive Loops 3:</div>
-    <div class="festive">
-      <span class="festive_1">b</span>
-      <span class="festive_2">r</span>
-      <span class="festive_3">öt</span>
-      <span class="festive_4">he</span>
-      <span class="festive_5">r</span>
-      <span class="festive_6">'</span>
-      <span class="festive_7">s </span> 
-      <span class="festive_8">f</span>
-      <span class="festive_9">ës</span>
-      <span class="festive_10">t</span>
-      <span class="festive_11">iv</span>
-      <span class="festive_12">e </span> 
-      <span class="festive_13">V</span>
-      <span class="festive_14">ue</span>
-      <span class="festive_15">.</span>
-      <span class="festive_16">js </span> 
-      <span class="festive_17">w</span>
-      <span class="festive_18">ë</span>
-      <span class="festive_19">b </span> 
-      <span class="festive_20">ä</span>
-      <span class="festive_21">p</span>
-      <span class="festive_22">p</span>
+    <div class="header">
+      <div class="text">Welcome, to</div>
+      <div class="title">Brother's Festive Loops 3:</div>
+      <div class="festive">
+        <span class="festive_1">b</span>
+        <span class="festive_2">r</span>
+        <span class="festive_3">öt</span>
+        <span class="festive_4">he</span>
+        <span class="festive_5">r</span>
+        <span class="festive_6">'</span>
+        <span class="festive_7">s </span> 
+        <span class="festive_8">f</span>
+        <span class="festive_9">ës</span>
+        <span class="festive_10">t</span>
+        <span class="festive_11">iv</span>
+        <span class="festive_12">e </span> 
+        <span class="festive_13">V</span>
+        <span class="festive_14">ue</span>
+        <span class="festive_15">.</span>
+        <span class="festive_16">js </span> 
+        <span class="festive_17">w</span>
+        <span class="festive_18">ë</span>
+        <span class="festive_19">b </span> 
+        <span class="festive_20">ä</span>
+        <span class="festive_21">p</span>
+        <span class="festive_22">p</span>
+      </div>
     </div>
     <button class="next" @click="$router.push('/noodle')">
       Begin
@@ -44,7 +46,7 @@ export default {
 .home {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   background-color: white;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
@@ -56,12 +58,11 @@ export default {
 .text {
   margin: 20px;
   margin-bottom: 5px;
-  margin-right: 0;
-  width: 300px;
   text-align: left;
 }
 .title {
   margin-left: 20px;
+  margin-right: 20px;
   font-weight: 900;
   text-align: left;
 }
