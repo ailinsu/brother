@@ -1,9 +1,11 @@
 <template>
   <div class="home">
-    <div class="title">Brother's Festive Noodle</div>
-    <div class="text">
-        <span class="description">The festive noodle attached to the festive goose contains a festive </span><span class="string">std::string</span><span class="description"> of festive alphanumeric characters.
-        Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.</span>
+    <div class="header">
+      <div class="title">Brother's Festive Noodle</div>
+      <div class="text">
+          <span class="description">The festive noodle attached to the festive goose contains a festive </span><span class="string">std::string</span><span class="description"> of festive alphanumeric characters.
+          Enter the festive characters into the festive html form below in the order that you receive them following the festive noodle from the festive goose to the festive end.</span>
+      </div>
     </div>
     <div class="input-wrapper">
       <textarea class="input" type="text" name="name" size="10" v-model="input" @input="showError = false"/>

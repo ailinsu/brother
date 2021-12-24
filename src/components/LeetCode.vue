@@ -1,32 +1,34 @@
 <template>
   <div class="home">
-    <div class="title">Brother's Festive Algorithm</div>
-    <div class="text">
-      <span class="description">Given a festive array </span><span class="code">nums</span><span class="description"> of </span><span class="code">n</span><span class="description"> festive integers where </span>
-      <span class="code">nums[i]</span><span class="description"> is in the range </span><span class="code">[1, n]</span><span class="description">,
-      return a festive array of all the festive integers in the range </span><span class="code">[1, n]</span>
-      <span class="description"> that do not appear in the festive array </span><span class="code">nums</span><span class="description">. Remove the brackets and commas,
-      and paste in the list as a concatenated festive number.</span>
+    <div class="header">
+      <div class="title">Brother's Festive Algorithm</div>
+      <div class="text">
+        <span class="description">Given a festive array </span><span class="code">nums</span><span class="description"> of </span><span class="code">n</span><span class="description"> festive integers where </span>
+        <span class="code">nums[i]</span><span class="description"> is in the range </span><span class="code">[1, n]</span><span class="description">,
+        return a festive array of all the festive integers in the range </span><span class="code">[1, n]</span>
+        <span class="description"> that do not appear in the festive array </span><span class="code">nums</span><span class="description">. Remove the brackets and commas,
+        and paste in the list as a concatenated festive number.</span>
+      </div>
+      <div class="example-group">
+        <div class="title">Example 1:</div>
+        <div class="code-block">
+          Input: nums = [4,3,2,7,8,2,3,1,2,1]<br/>
+          Missing: [5,6,9,10]<br/>
+          Output: 56910
+        </div>
+      </div>
+      <div class="example-group">
+        <div class="title">Example 2:</div>
+        <div class="code-block">
+          Input: nums = [1,1,1]<br/>
+          Missing: [2,3]<br/>
+          Output: 23
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="button-test-case" @click="copy">Copy Test Case</button>
+      </div>
     </div>
-		<div class="example-group">
-			<div class="title">Example 1:</div>
-			<div class="code-block">
-				Input: nums = [4,3,2,7,8,2,3,1,2,1]<br/>
-				Missing: [5,6,9,10]<br/>
-				Output: 56910
-			</div>
-		</div>
-		<div class="example-group">
-			<div class="title">Example 2:</div>
-			<div class="code-block">
-				Input: nums = [1,1,1]<br/>
-				Missing: [2,3]<br/>
-				Output: 23
-			</div>
-		</div>
-		<div class="button-container">
-			<button class="button-test-case" @click="copy">Copy Test Case</button>
-		</div>
     <div class="input-wrapper">
       <textarea class="input" type="text" name="name" size="10" v-model="input" @input="showError = false"/>
       <div class="berror">
@@ -105,7 +107,7 @@ export default {
   background-color: rgb(228, 228, 228);
   font-size: 10px;
   font-weight: 900;
-  color: rgb(27, 27, 27);
+  color: rgb(0, 0, 0);
   padding: 3px;
   border-radius: 5px;
 	vertical-align: middle;
@@ -201,7 +203,7 @@ export default {
   height: 40px;
 	width: 260px;
   border: 2px solid #000;
-  background-color: #666;
+  background-color: rgb(20, 20, 20);
 	color: #fff;
   align-self: flex-end;
   transition-duration: 0.3s;
