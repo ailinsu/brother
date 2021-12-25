@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       input: '',
-      password: '2IMuSzIDYRvoSncq2QfPli95XPyXnQo8rcOej1ZAKL6zalway3OwLkOUwoZ2HJyD',
+      password: '2IMuSzIDYRvoSncq2QfPli95XPyXnQo8rcej1ZAKL6zaU',
       showError: false,
       errorMessage: "Incorrect",
     }
